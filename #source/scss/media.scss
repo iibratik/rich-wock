@@ -1,0 +1,152 @@
+@media (max-width:1400px) {
+    .little-card__text{
+        font-size: 20px;
+    }
+    .our-chiefs-row{
+        flex-wrap: wrap;
+    }
+    .menu-card{
+        max-width: 300px;
+    }
+}
+@media (max-width:1200px) {
+    .review-sub-title{
+        left: 0% !important;
+    }
+    .card-row{
+        flex-wrap: wrap;
+    }
+    .our-card__main{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .little-card__text{
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .order__sub-title{
+        text-align: center;
+    }
+    .history-content{
+        flex-wrap: wrap ;
+    }
+    .main-cards-content{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:994px) {
+    .header-sub-title{
+        &::after,&::before{
+            display: none;
+        }
+    }
+    .header-content{
+        align-items: center;
+    }
+    .main-cards-content{
+        transform: translateY(7%);
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-card{
+        max-width: none;
+        width: 40%;
+        .card-sub-title{
+            font-size: 20px;
+            
+        }
+        .order__content{
+            display: flex;
+            
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+    }
+    .order__content{
+        flex-direction: column;
+    }
+    .menu-cards-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .menu-cards-title{
+        padding-bottom: 60px;
+    }
+    .carousel-card-1 img{
+        margin-top: 180px;
+    }
+    .dash{
+        display: none;
+    }
+    .little-card__text{
+        flex-grow: 0;
+    }
+    .our-dish__card-little{
+        justify-content: space-between;
+    }
+    .card-column{
+        gap: 30px;
+    }
+    .main-card{
+        width: 100%;
+    }
+}
+@media (max-width: 720px){
+    .gallery-imgs-row{
+        img{
+            width: 100%;
+        }
+    }
+    .history-img{
+        width: 100%;
+    }
+    .carousel-card-1 img{
+        margin-top: 200px;
+    }
+}
+@media (max-width:540px) {
+    h1{
+        display: none;
+    }
+    .title-mobile{
+        display: block;
+        text-align: center;
+        font-size: 30px !important;
+        span{
+            font-size: 40px !important;
+        }
+    }
+    .header-sub-title{
+        font-size: 15px;
+    }
+    .btn-mobile-menu{
+        display: block;
+        padding: 14px 44px;
+    }
+    .order__title{
+        font-size: 30px;
+    }
+    .our-chiefs-content{
+        img{
+            width: 100%;
+        }
+    }
+    .text-specs{
+        flex-direction: column;
+    }
+    .carousel-card-1 img{
+        margin-top: 25em;
+    }
+    .our-dishes-title{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+}
